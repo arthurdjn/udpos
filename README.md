@@ -33,7 +33,7 @@ class UDPOSFR(SequenceTaggingDataset):
         data.
         """
 
-        return super(UDPOS, cls).splits(
+        return super(UDPOSFR, cls).splits(
             fields=fields, root=root, train=train, validation=validation,
             test=test, **kwargs)
 ```
