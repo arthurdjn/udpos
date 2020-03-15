@@ -52,7 +52,9 @@ fields = (("text", TEXT), ("lemmatized", LEMMATIZED), ("udtags", UD_TAGS))
 train_data, eval_data, test_data = UDPOSFR.splits(fields)
 ```
 
+# Convert your own dataset
 
+If you want to use a dataset that is not saved under the `data/` folder, you can still use the `conllu2txt(filename)` function, in ``utils/``. It will preprocess the original dataset into a **ready-to-use** one with **PyTorch**. 
 
 # Source
 
