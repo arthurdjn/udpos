@@ -8,7 +8,7 @@ from `.conllu` to `.txt` format. They can be downloaded using the `torch.dataset
 just change the `urls` to the dataset of your choice.
 
 
-# Getting Started
+# Example
 
 The datasets follows the orginal template from the **Universal Dependencies English Treebank**, available [here](https://bitbucket.org/sivareddyg/public/downloads/en-ud-v2.zip). Create your custom `UDPOS` dataset using the language of your choice.
 Replace the `urls` and saving directory `dirname` to extract the downloaded files. That's it !
