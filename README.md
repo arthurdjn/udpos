@@ -38,7 +38,8 @@ class UDPOSFR(SequenceTaggingDataset):
             test=test, **kwargs)
 ```
 
-```
+Then,
+```python
 from torchtext import data
 import UDPOSFR
 
